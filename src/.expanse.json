@@ -237,7 +237,8 @@
           "type": "asset",
           "asset": "assets/chairspin_a.mp4"
         },
-        "blending": "normal"
+        "blending": "normal",
+        "mipmaps": false
       },
       "parentId": "0753293b-45a9-497d-854a-056f5de7c366",
       "components": {},
@@ -288,7 +289,7 @@
         },
         "blending": "normal",
         "textureFiltering": "smooth",
-        "mipmaps": true,
+        "mipmaps": false,
         "forceTransparent": false
       },
       "components": {
@@ -350,7 +351,8 @@
         "emissiveMap": null,
         "emissiveColor": "#ffffff",
         "opacity": 1,
-        "normalScale": 1
+        "normalScale": 1,
+        "mipmaps": false
       },
       "components": {},
       "name": "Sleepy Mouse",
