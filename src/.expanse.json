@@ -68,7 +68,7 @@
       },
       "name": "viewport.glb",
       "order": 4.645422336329983,
-      "hidden": false
+      "hidden": true
     },
     "7f98940a-0cd0-43a2-992d-e8e9e8a54f45": {
       "id": "7f98940a-0cd0-43a2-992d-e8e9e8a54f45",
@@ -206,9 +206,9 @@
     "f7fed8ec-f85a-4d54-9b9b-8919b8973bc9": {
       "id": "f7fed8ec-f85a-4d54-9b9b-8919b8973bc9",
       "position": [
-        -0.333717665177696,
-        -0.3221869483381226,
-        -0.632659730699442
+        -0.024102044189703742,
+        -0.2946516242440817,
+        -0.6348534595891365
       ],
       "rotation": [
         0,
@@ -217,9 +217,9 @@
         1
       ],
       "scale": [
-        0.5,
-        0.37500000000000056,
-        0.5208333333333333
+        1.2185644946784215,
+        0.45696168550440824,
+        0.6346690076450114
       ],
       "geometry": {
         "type": "plane",
@@ -231,18 +231,18 @@
         "color": "#FFFFFF",
         "textureSrc": {
           "type": "asset",
-          "asset": "assets/chairspin.mp4"
+          "asset": "assets/miceFG.mp4"
         },
         "opacityMap": {
           "type": "asset",
-          "asset": "assets/chairspin_a.mp4"
+          "asset": "assets/miceFG_alpha.mp4"
         },
         "blending": "normal",
         "mipmaps": false
       },
       "parentId": "0753293b-45a9-497d-854a-056f5de7c366",
       "components": {},
-      "name": "Chairspin",
+      "name": "FG Mice",
       "order": 2.6895650411244,
       "shadow": {
         "castShadow": true,
@@ -253,12 +253,12 @@
         "volume": 0
       }
     },
-    "d98dc157-f6eb-48e1-9897-902a8d2ac622": {
-      "id": "d98dc157-f6eb-48e1-9897-902a8d2ac622",
+    "96de1970-ca1c-4570-b9c6-6489f792ea7d": {
+      "id": "96de1970-ca1c-4570-b9c6-6489f792ea7d",
       "position": [
-        0.2234260629025499,
-        -0.31875812999674674,
-        -0.6259662584568984
+        -0.00911719864729077,
+        -0.2928947434401365,
+        -1.5
       ],
       "rotation": [
         0,
@@ -267,9 +267,9 @@
         1
       ],
       "scale": [
-        0.4,
-        0.4,
-        0.4
+        0.6106062485433577,
+        0.4579546864075182,
+        0.3312750914406238
       ],
       "geometry": {
         "type": "plane",
@@ -281,82 +281,19 @@
         "color": "#FFFFFF",
         "textureSrc": {
           "type": "asset",
-          "asset": "assets/DrawingMouse.mp4"
+          "asset": "assets/miceBG.mp4"
         },
         "opacityMap": {
           "type": "asset",
-          "asset": "assets/DrawingMouse_v1.mp4"
+          "asset": "assets/miceBG_alpha.mp4"
         },
         "blending": "normal",
-        "textureFiltering": "smooth",
-        "mipmaps": false,
-        "forceTransparent": false
-      },
-      "components": {
-        "65eb5b98-7a5f-4b9c-b57d-48a5d814e584": {
-          "id": "65eb5b98-7a5f-4b9c-b57d-48a5d814e584",
-          "name": "example-component",
-          "parameters": {}
-        }
-      },
-      "name": "Drawing Mouse",
-      "order": 3.035786900327528,
-      "shadow": {
-        "castShadow": true
-      },
-      "videoControls": {
-        "loop": true,
-        "volume": 0
-      },
-      "parentId": "0753293b-45a9-497d-854a-056f5de7c366",
-      "hidden": false
-    },
-    "203cd085-14ef-47f3-9160-d01163b4d457": {
-      "id": "203cd085-14ef-47f3-9160-d01163b4d457",
-      "position": [
-        -0.01308549335149839,
-        -0.45208179554332845,
-        -0.8500501874973622
-      ],
-      "rotation": [
-        -0.3852668918628496,
-        0,
-        0,
-        0.9228051918115433
-      ],
-      "scale": [
-        0.35,
-        0.16515625000000003,
-        0.36458333333333354
-      ],
-      "geometry": {
-        "type": "plane",
-        "width": 1,
-        "height": 1
-      },
-      "material": {
-        "type": "basic",
-        "color": "#FFFFFF",
-        "textureSrc": {
-          "type": "asset",
-          "asset": "assets/SleepyMouse.mp4"
-        },
-        "opacityMap": {
-          "type": "asset",
-          "asset": "assets/SleepyMouse_a.mp4"
-        },
-        "wireframe": false,
-        "depthTest": true,
-        "emissiveIntensity": 0,
-        "emissiveMap": null,
-        "emissiveColor": "#ffffff",
-        "opacity": 1,
-        "normalScale": 1,
         "mipmaps": false
       },
+      "parentId": "0753293b-45a9-497d-854a-056f5de7c366",
       "components": {},
-      "name": "Sleepy Mouse",
-      "order": 3.4316247758681735,
+      "name": "BG Mice",
+      "order": 3.0254428085722385,
       "shadow": {
         "castShadow": true,
         "receiveShadow": false
@@ -364,8 +301,7 @@
       "videoControls": {
         "loop": true,
         "volume": 0
-      },
-      "parentId": "0753293b-45a9-497d-854a-056f5de7c366"
+      }
     }
   },
   "spaces": {
