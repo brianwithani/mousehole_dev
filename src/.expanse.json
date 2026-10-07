@@ -206,9 +206,9 @@
     "f7fed8ec-f85a-4d54-9b9b-8919b8973bc9": {
       "id": "f7fed8ec-f85a-4d54-9b9b-8919b8973bc9",
       "position": [
-        -0.024102044189703742,
-        -0.2946516242440817,
-        -0.6348534595891365
+        -0.03093923808239457,
+        -0.25311160956527606,
+        -0.5462637176414684
       ],
       "rotation": [
         0,
@@ -217,9 +217,9 @@
         1
       ],
       "scale": [
-        1.2185644946784215,
-        0.45696168550440824,
-        0.6346690076450114
+        1.4398589092174916,
+        0.5399470909565594,
+        0.7499265152174436
       ],
       "geometry": {
         "type": "plane",
@@ -256,9 +256,9 @@
     "96de1970-ca1c-4570-b9c6-6489f792ea7d": {
       "id": "96de1970-ca1c-4570-b9c6-6489f792ea7d",
       "position": [
-        -0.00911719864729077,
-        -0.2928947434401365,
-        -1.5
+        -0.1336555508662673,
+        -0.25319379811433446,
+        -1.722788671408635
       ],
       "rotation": [
         0,
@@ -267,9 +267,9 @@
         1
       ],
       "scale": [
-        0.6106062485433577,
-        0.4579546864075182,
-        0.3312750914406238
+        0.7214938978022991,
+        0.5411204233517243,
+        0.3914354914291988
       ],
       "geometry": {
         "type": "plane",
@@ -302,6 +302,288 @@
         "loop": true,
         "volume": 0
       }
+    },
+    "6ff2fd4a-90a3-4ff5-9981-df3a21aa1a14": {
+      "id": "6ff2fd4a-90a3-4ff5-9981-df3a21aa1a14",
+      "position": [
+        -0.1620813679208032,
+        0,
+        0.3816629072620602
+      ],
+      "rotation": [
+        0,
+        -0.39331137852503595,
+        0,
+        0.9194053292877609
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/Card1.png"
+        }
+      },
+      "parentId": "df32d313-e1da-4a6c-8cc7-a57d4cca1eab",
+      "components": {},
+      "name": "Plane",
+      "order": 13.30730914530128
+    },
+    "ae8f4fc8-72e0-4500-9dc9-85ad79dcbb64": {
+      "id": "ae8f4fc8-72e0-4500-9dc9-85ad79dcbb64",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1.0000000000000002,
+        1,
+        1.0000000000000002
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF",
+        "textureSrc": null
+      },
+      "components": {},
+      "name": "Back",
+      "order": 15.008310008463429,
+      "parentId": "df32d313-e1da-4a6c-8cc7-a57d4cca1eab"
+    },
+    "df32d313-e1da-4a6c-8cc7-a57d4cca1eab": {
+      "id": "df32d313-e1da-4a6c-8cc7-a57d4cca1eab",
+      "position": [
+        -0.3169580816302079,
+        -0.2006007909913534,
+        -0.9660746648891154
+      ],
+      "rotation": [
+        0,
+        0.5527434028645573,
+        0,
+        0.82450310691522
+      ],
+      "scale": [
+        0.14587513572630256,
+        0.18666666666666648,
+        0.13820750896341794
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "0753293b-45a9-497d-854a-056f5de7c366",
+      "components": {},
+      "name": "Card",
+      "order": 3.2406531140430452
+    },
+    "19302bc3-701b-42a9-b9ba-ec5a08d8857a": {
+      "id": "19302bc3-701b-42a9-b9ba-ec5a08d8857a",
+      "position": [
+        0.19950687802935071,
+        -0.2006007909913534,
+        -0.8882352425523529
+      ],
+      "rotation": [
+        0,
+        0.1683146747581403,
+        0,
+        0.9812336746658447
+      ],
+      "scale": [
+        0.1397007160256995,
+        0.18666666666666648,
+        0.1442130744779497
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "name": "Card (2)",
+      "order": 3.2559913220819823,
+      "parentId": "0753293b-45a9-497d-854a-056f5de7c366"
+    },
+    "8fd785b1-6921-4e6e-af92-ed870019b07b": {
+      "id": "8fd785b1-6921-4e6e-af92-ed870019b07b",
+      "position": [
+        -0.1620813679208032,
+        0,
+        0.3816629072620602
+      ],
+      "rotation": [
+        0,
+        -0.39331137852503595,
+        0,
+        0.9194053292877609
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/Card2.png"
+        }
+      },
+      "parentId": "19302bc3-701b-42a9-b9ba-ec5a08d8857a",
+      "components": {},
+      "name": "Plane (2)",
+      "order": 1
+    },
+    "9a5dc15a-30f4-4ef9-8829-ae7681758433": {
+      "id": "9a5dc15a-30f4-4ef9-8829-ae7681758433",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1.0000000000000002,
+        1,
+        1.0000000000000002
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF",
+        "textureSrc": null
+      },
+      "components": {},
+      "name": "Back (2)",
+      "order": 2,
+      "parentId": "19302bc3-701b-42a9-b9ba-ec5a08d8857a"
+    },
+    "3c9ed268-8ddb-4b44-877b-fdf9ffdeeca9": {
+      "id": "3c9ed268-8ddb-4b44-877b-fdf9ffdeeca9",
+      "position": [
+        -0.05448269202342282,
+        -0.17448271642688287,
+        -0.8450492464404322
+      ],
+      "rotation": [
+        0,
+        0.24340702776815712,
+        0,
+        0.9611278602063985
+      ],
+      "scale": [
+        0.1487628380957355,
+        0.18666666666666615,
+        0.1434401575184023
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "0753293b-45a9-497d-854a-056f5de7c366",
+      "components": {},
+      "name": "Card (3)",
+      "order": 3.2483222180625138
+    },
+    "9bdb280a-680d-4dde-b5c2-83b399162821": {
+      "id": "9bdb280a-680d-4dde-b5c2-83b399162821",
+      "position": [
+        -0.1620813679208032,
+        0,
+        0.3816629072620602
+      ],
+      "rotation": [
+        0,
+        -0.39331137852503595,
+        0,
+        0.9194053292877609
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/Card3.png"
+        }
+      },
+      "parentId": "3c9ed268-8ddb-4b44-877b-fdf9ffdeeca9",
+      "components": {},
+      "name": "Plane (3)",
+      "order": 13.30730914530128
+    },
+    "1939b257-65ec-424c-9bcf-ca273ba3d84d": {
+      "id": "1939b257-65ec-424c-9bcf-ca273ba3d84d",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1.0000000000000002,
+        1,
+        1.0000000000000002
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF",
+        "textureSrc": null
+      },
+      "components": {},
+      "name": "Back (3)",
+      "order": 15.008310008463429,
+      "parentId": "3c9ed268-8ddb-4b44-877b-fdf9ffdeeca9"
     }
   },
   "spaces": {
